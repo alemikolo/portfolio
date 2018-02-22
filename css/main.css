@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public doportfolio)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal normal 300 16px/1.2em "Ubuntu";
+}
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 2px solid #047adb;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.header__logo {
+  max-height: 40px;
+}
+
+.header__titles {
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header__titles__title {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 0.5em 0 0 0;
+}
+
+.header__titles__subtitle {
+  font-size: 1.1em;
+  color: #333;
+  margin: 0.2em 0 0 0;
+}
+
+.portfolio {
+  max-width: 100%;
+}
+
+.portfolio__banner__image, .work__image {
+  max-width: 100%;
+  display: block;
+}
+
+.portfolio__title {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 2px solid #047adb;
+  text-align: center;
+  padding-bottom: 0.3em;
+  margin: 1.5em 1em 1em 1em;
+
+}
+
+.portfolio__works {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.works__work {
+  margin-bottom: 2.5em;
+}
+
+.work__description {
+  padding: 0.5em;
+}
+.work__title {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+
+@media screen and (min-width: 901px) {
+  .header,
+  .portfolio {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+/*
+.header {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 2px solid #7d97ad;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.header__logo {
+  max-height: 40px;
+}
+
+.header__titles {
+  font-size: 1em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: yellow;
+}
+
+.header__titles__title {
+  font-weight: 400;
+  font-size: 1.5em;
+  align-self: flex-start;
+}
+
+.header__titles__subtitle {
+  margin-top: 0.3em;
+} */
