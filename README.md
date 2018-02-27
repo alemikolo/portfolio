@@ -1,4 +1,4 @@
-# portfolio# Portfolio
+# Portfolio
 Portfolio is a simple website written in HTML, CSS and JS.
 
 ## Dependecies
