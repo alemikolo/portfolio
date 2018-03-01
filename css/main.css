@@ -3,48 +3,136 @@
    License: none (public doportfolio)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
@@ -91,7 +179,8 @@ body {
   border-bottom: 2px solid #047adb;
 }
 
-.portfolio__banner__image, .work__image {
+.portfolio__banner__image,
+.work__image {
   max-width: 100%;
   display: block;
 }
@@ -119,8 +208,8 @@ body {
 }
 
 .work__image {
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
- }
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+}
 
 .work__description {
   background-color: #fff;
@@ -156,7 +245,7 @@ body {
 
 .work__link:hover {
   transform: scale(1.2);
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .footer {
@@ -183,7 +272,7 @@ body {
 
 .footer__link:hover {
   transform: scale(1.2);
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .footer__copyrights {
@@ -202,12 +291,10 @@ body {
     font-size: 2.3em;
     margin: 0.5em 0 0 0;
   }
-
   .header__titles__subtitle {
     font-size: 1.2em;
     margin: 0.7em 0 0 0;
   }
-
   .work__title {
     line-height: 1.7em;
     font-size: 1.5em;
@@ -219,7 +306,6 @@ body {
     position: relative;
     margin-bottom: 1.5em;
   }
-
   .work__title {
     line-height: 1.6em;
     font-size: 1.4em;
@@ -228,7 +314,6 @@ body {
     text-align: center;
     color: #fff;
   }
-
   .work__description {
     position: absolute;
     margin-top: 0;
@@ -236,10 +321,9 @@ body {
     top: 1em;
     right: 1em;
     bottom: 1em;
-    background-color: rgba(255,255,255, 0.9);
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
   }
-
   .work__specification {
     padding: 0.75em;
   }
@@ -252,28 +336,22 @@ body {
 }
 
 @media screen and (min-width: 701px) {
-   .header__logo {
+  .header__logo {
     max-height: 70px;
   }
-
   .header__titles__title {
     font-size: 3em;
   }
-
-
   .header__titles__subtitle {
     font-size: 1.6em;
     margin: 1em 0 0 0;
   }
-
   .portfolio__title {
     font-size: 2em;
   }
-
   .works__work {
     width: 50%;
   }
-
   .work__title {
     line-height: 1.7em;
     font-size: 1.5em;
@@ -284,16 +362,13 @@ body {
   .works__work:first-of-type {
     width: 100%;
   }
-
   .works__work {
     width: 50%
   }
-
   .work__specification {
     font-size: 1.2em;
     line-height: 1.5em;
   }
-
   .work__title {
     line-height: 1.8em;
     font-size: 1.6em;
@@ -304,24 +379,19 @@ body {
   .header__logo {
     max-height: 90px;
   }
-
   .header__titles__title {
     font-size: 3.5em;
   }
-
   .header__titles__subtitle {
     font-size: 1.8em;
     margin: 1em 0 0 0;
   }
-
   .portfolio__title {
     font-size: 2.3em;
   }
-
   .works__work:first-of-type {
     width: 50%;
   }
-
   .work__title {
     line-height: 2em;
     font-size: 1.8em;
