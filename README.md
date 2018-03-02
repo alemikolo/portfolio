@@ -6,6 +6,7 @@ Portfolio is a simple website written in HTML, CSS and JS.
 - [Picturefill](https://scottjehl.github.io/picturefill/)
 
 ## ToDo
+- Remove <picture> leave only srcset and sizes
 - Write subpages (contac, about me)
 - Add navigation
 - Increase the availability
