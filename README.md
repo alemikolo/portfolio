@@ -7,8 +7,6 @@ Portfolio is a simple website written in HTML, CSS and JS.
 
 ## ToDo
 - Remove <picture> leave only srcset and sizes
-- Write subpages (contac, about me)
-- Add navigation
 - Increase the availability
 
 ## License
